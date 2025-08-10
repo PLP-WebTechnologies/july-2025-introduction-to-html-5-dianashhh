@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic SEO Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A sample accessible and SEO-friendly HTML5 webpage built with semantic tags for beginners.">
+    <meta name="keywords" content="HTML5, accessibility, SEO, semantic tags, beginner web development">
+    <meta name="author" content="Your Name">
+    <title>Accessible & SEO-Friendly HTML5 Page</title>
+</head>
+<body>
+
+    <!-- Header Landmark -->
+    <header>
+        <h1>My Accessible & SEO-Friendly Webpage</h1>
+        <p>Learning HTML5 with accessibility and SEO best practices</p>
+    </header>
+
+    <!-- Navigation Landmark -->
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#about" title="Learn more about this page">About</a></li>
+            <li><a href="#articles" title="Read articles and tutorials">Articles</a></li>
+            <li><a href="#contact" title="Get in touch with us">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Landmark -->
+    <main>
+        <!-- About Section -->
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About This Page</h2>
+            <p>This webpage demonstrates how to use HTML5 semantic tags to create an accessible and SEO-friendly structure. It includes clearly defined sections, proper heading hierarchy, and descriptive text for both humans and search engines.</p>
+        </section>
+
+        <!-- Articles Section -->
+        <section id="articles" aria-labelledby="articles-heading">
+            <h2 id="articles-heading">Articles & Tutorials</h2>
+            
+            <article aria-labelledby="article-1-title">
+                <h3 id="article-1-title">Getting Started with HTML5</h3>
+                <p>HTML5 introduces semantic elements that help define the structure of web pages. Examples include <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code>. Using them correctly improves accessibility and SEO.</p>
+            </article>
+
+            <article aria-labelledby="article-2-title">
+                <h3 id="article-2-title">Why Accessibility Matters</h3>
+                <p>Accessibility ensures that all users, including those with disabilities, can navigate and understand your content. Techniques include using proper landmarks, alt text for images, and logical heading order.</p>
+            </article>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Us</h2>
+            <address>
+                <p>Email: <a href="mailto:info@example.com">dianamungai777@gmail.com</a></p>
+                <p>Phone: <a href="tel:+1234567890">+254792401221</a></p>
+            </address>
+        </section>
+    </main>
+
+    <!-- Footer Landmark -->
+    <footer>
+        <p>&copy; 2025 My Accessible & SEO-Friendly Webpage. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
